@@ -11,16 +11,9 @@ int primenumber(int i)
     }
     else
     {
-        if (i % 3 == 0)
-        {
-            printf("\n it's a hard number");
-            return 0;
-        }
-        else
-        {
-            printf("\n it's a prime number");
-            return 0;
-        }
+       
+        printf("\n it's a prime number");
+        return 0;
     }
 }
 
